@@ -26,13 +26,14 @@
 	<style>*,:before,:after{box-sizing:inherit}html,div{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{margin:0;padding:0;height:100%}body{background:#000;color:#4dff4d;font-family:"Lucida Console",Monaco,monospace,"Courier New",Courier;font-weight:400;font-size:1.25rem;line-height:1.5em;text-align:center;position:relative;-webkit-text-size-adjust:100%}a{color:#eee;text-decoration:none}section{margin:3em 0}ul,ol{padding-left:1em}table{margin:1em 0;border-collapse:collapse}td{vertical-align:top}td:first-child{white-space:nowrap;padding:.25em 1.5em .25em 0}button:hover{cursor:pointer}h1{font-size:4rem;letter-spacing:.5rem;line-height:1.25em}@media screen and (min-width: 60em){h1{font-size:6rem}}@media screen and (min-width: 80em){h1{font-size:8rem}}.hidden{opacity:0;z-index:-1}#matrix{position:absolute;width:100%;height:100%;display:block}#wrapper{width:100%;height:100%;margin:0 auto;overflow:hidden;position:relative}#menuTrigger{width:100%;height:100%;position:absolute;bottom:0;z-index:4000}#title{width:100%;height:100%;position:absolute;-moz-animation:move-title 12s 1;-webkit-animation:move-title 12s 1;animation:move-title 12s 1;animation-timing-function:linear;animation-delay:4s;padding:.25em;z-index:3199;-webkit-transition:color 1s ease;-moz-transition:color 1s ease;-ms-transition:color 1s ease;-o-transition:color 1s ease;transition:color 1s ease}.titleSmall{font-size:1.25rem}.menu{background:linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.7));position:absolute;width:100%;color:#eee;font-size:1.25rem;bottom:0;display:block;z-index:5000;-webkit-transition:transform .2s ease-in;-moz-transition:transform .2s ease-in;-ms-transition:transform .2s ease-in;-o-transition:transform .2s ease-in;transition:transform .2s ease-in}.menu.hidden{transform:translateY(100%);opacity:1;z-index:4000}.menuInner{max-width:50rem;margin:0 auto;padding:0 .125em}.menuInnerRow{float:left;width:100%;padding:.5em 0}.menuInnerCol,#menuTracks{padding-top:.5em}.menuInnerCol{float:left;width:100%}@media screen and (min-width: 22.5em){.menuInnerInnerCol{float:left;width:50%}}@media screen and (min-width: 40em){.menuWrapper{float:left;width:100%;padding-bottom:2em}.menuInnerCol,#menuTracks{padding-top:0}.menuInnerCol{width:33%;padding:.25em}.menuInnerInnerCol{width:100%}}.about{background:#000;color:#4dff4d;width:100%;height:100%;margin:0 auto;overflow:auto;position:absolute;z-index:6000;text-align:left;-webkit-transition:opacity 1.5s;-moz-transition:opacity 1.5s;-ms-transition:opacity 1.5s;-o-transition:opacity 1.5s;transition:opacity 1.5s}.aboutInner{padding:1em 1.5em;max-width:65rem;margin:0 auto}.about.hidden{z-index:3500}.return{margin:0}.footer{margin-top:4em;text-align:center}.key{display:inline-block;line-height:1.25em;width:1.25em;text-align:center;border:2px outset #4dff4d;-moz-border-radius:.25em;-webkit-border-radius:.25em;border-radius:.25em}.messageBox{background:linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.4),rgba(0,0,0,0.1));position:absolute;width:100%;height:100%;color:#eee;font-size:1.25rem;z-index:3150;-webkit-transition:opacity 3s;-moz-transition:opacity 3s;-ms-transition:opacity 3s;-o-transition:opacity 3s;transition:opacity 3s;display:flex;align-items:center;justify-content:center}@media screen and (min-width: 60em){.messageBox{font-size:1.3rem}}.messageBox.hidden{z-index:3150}.messageBoxInner{max-width:65rem;padding:0 1.5em;margin:0 auto;mix-blend-mode:hard-light}.button{font-size:1.5rem;font-weight:700;display:inline-block;background:#333;color:#eee;border:2px solid transparent;border-radius:.125em;margin:.25em -.0625em;width:2.125em;height:2.125em;line-height:2.125em;text-align:center}.buttonMusic{background:#eee;color:#222}.buttonActive{background:#111;color:#fff;border:2px inset #666}.buttonMusic.buttonActive{color:#fff}.buttonActive.buttonPaused{color:#999}.buttonAuto{font-size:1em;width:auto;height:auto;padding:.125em .75em}#buttonAboutReturn{background:none;text-align:center;margin:0;position:fixed;top:0;right:0}@media screen and (min-width: 60em){#buttonAboutReturn{right:.75em}}span.menuButtonRow{display:block}#music{position:absolute;top:-5em;z-index:-2}@-moz-keyframes move-title{from{transform:translateY(0);opacity:1}to{transform:translateY(100%);opacity:0}}@-webkit-keyframes move-title{from{transform:translateY(0);opacity:1}to{transform:translateY(100%);opacity:0}}@keyframes move-title{from{transform:translateY(0);opacity:1}to{transform:translateY(100%);opacity:0}}</style>	
 
 	<!-- Including the bootstrap CDN -->
-   	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 	
 <body>
+	
 	<div class="index">
 		<div class="index__block js-open-index"></div>
 
@@ -57,6 +58,1586 @@
                             <span class="list-item__number">0237</span>
                         <span class="list-item__title">ARCH+ Geld</span>
                     </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0235.3</span>
+                        <span class="list-item__title">Trussardi Showroom Moscow</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0235.2</span>
+                        <span class="list-item__title">Trussardi Showroom Milan</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0235.1</span>
+                        <span class="list-item__title">Trussardi Fashion Show Stage</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0233-die-unbekannte-stadt" data-url="/projects/0233-die-unbekannte-stadt">
+                            <span class="list-item__number">0233</span>
+                        <span class="list-item__title">Die unbekannte Stadt</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0232.2</span>
+                        <span class="list-item__title">GMONC</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0232.1-berlin-questions-quarantine-economies" data-url="/projects/0232.1-berlin-questions-quarantine-economies">
+                            <span class="list-item__number">0232.1</span>
+                        <span class="list-item__title">Berlin Questions: Quarantine Economies</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0232</span>
+                        <span class="list-item__title">Global Moratorium on New Construction</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0231</span>
+                        <span class="list-item__title">FRESKO</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0230</span>
+                        <span class="list-item__title">Plateforme de la Création</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0229-church-for-sale" data-url="/projects/0229-church-for-sale">
+                            <span class="list-item__number">0229</span>
+                        <span class="list-item__title">Church for Sale</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0228</span>
+                        <span class="list-item__title">bplus.xyz </span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0227</span>
+                        <span class="list-item__title">Mäusebunker</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0226.3-the-city-of-platform-capitalism" data-url="/projects/0226.3-the-city-of-platform-capitalism">
+                            <span class="list-item__number">0226.3</span>
+                        <span class="list-item__title">The City of Platform Capitalism</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0226.2-property-entails-obligations" data-url="/projects/0226.2-property-entails-obligations">
+                            <span class="list-item__number">0226.2</span>
+                        <span class="list-item__title">Property Entails Obligations</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0226.1-the-disappearance-of-architecture-and-society-in-the-algorithm" data-url="/projects/0226.1-the-disappearance-of-architecture-and-society-in-the-algorithm">
+                            <span class="list-item__number">0226.1</span>
+                        <span class="list-item__title">The Disappearance of Architecture and Society in the Algorithm</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0226-arch-the-property-issue-politics-of-space-and-data" data-url="/projects/0226-arch-the-property-issue-politics-of-space-and-data">
+                            <span class="list-item__number">0226</span>
+                        <span class="list-item__title">ARCH+ The Property Issue: Politics of Space and Data</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0225</span>
+                        <span class="list-item__title">Ökohaus</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0224-langsbau-h1" data-url="/projects/0224-langsbau-h1">
+                            <span class="list-item__number">0224</span>
+                        <span class="list-item__title">Längsbau H1</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0223-2g81" data-url="/projects/0223-2g81">
+                            <span class="list-item__number">0223</span>
+                        <span class="list-item__title">2G81</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0222</span>
+                        <span class="list-item__title">2038 - The New Serenity</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0221</span>
+                        <span class="list-item__title">Luthergrund</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0220-hostelturm-salzburg" data-url="/projects/0220-hostelturm-salzburg">
+                            <span class="list-item__number">0220</span>
+                        <span class="list-item__title">Hostelturm Salzburg</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0219-vrmd-zurich" data-url="/projects/0219-vrmd-zurich">
+                            <span class="list-item__number">0219</span>
+                        <span class="list-item__title">VRMD Zürich</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0218</span>
+                        <span class="list-item__title">Haus Zundel</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0217</span>
+                        <span class="list-item__title">Loi 130</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0216-museum-hgsk" data-url="/projects/0216-museum-hgsk">
+                            <span class="list-item__number">0216</span>
+                        <span class="list-item__title">Museum HGSK</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0215.1-arch-features-posthumane-architektur-wie-wollen-wir-zusammenleben" data-url="/projects/0215.1-arch-features-posthumane-architektur-wie-wollen-wir-zusammenleben">
+                            <span class="list-item__number">0215.1</span>
+                        <span class="list-item__title">ARCH+ features: Posthumane Architektur – Wie wollen wir zusammenleben?</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0215-arch-posthumane-architektur" data-url="/projects/0215-arch-posthumane-architektur">
+                            <span class="list-item__number">0215</span>
+                        <span class="list-item__title">ARCH+ Posthumane Architektur</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0214-horst-19" data-url="/projects/0214-horst-19">
+                            <span class="list-item__number">0214</span>
+                        <span class="list-item__title">Horst 19</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0213.4-architecting-land" data-url="/projects/0213.4-architecting-land">
+                            <span class="list-item__number">0213.4</span>
+                        <span class="list-item__title">Architecting Land</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0213.3-legislating-architecture-architecting-after-politics" data-url="/projects/0213.3-legislating-architecture-architecting-after-politics">
+                            <span class="list-item__number">0213.3</span>
+                        <span class="list-item__title">Legislating Architecture: Architecting after Politics</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0213.2-legislating-architecture-architecting-after-politics-s" data-url="/projects/0213.2-legislating-architecture-architecting-after-politics-s">
+                            <span class="list-item__number">0213.2</span>
+                        <span class="list-item__title">Legislating Architecture | Architecting after Politics (*****S)</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0213.1-legislating-architecture-architecting-after-politics-s" data-url="/projects/0213.1-legislating-architecture-architecting-after-politics-s">
+                            <span class="list-item__number">0213.1</span>
+                        <span class="list-item__title">Legislating Architecture | Architecting after Politics (*****S)</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0213-architecting-after-politics" data-url="/projects/0213-architecting-after-politics">
+                            <span class="list-item__number">0213</span>
+                        <span class="list-item__title">Architecting after Politics</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0212</span>
+                        <span class="list-item__title">KMA Pavilion</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0211-brutiful" data-url="/projects/0211-brutiful">
+                            <span class="list-item__number">0211</span>
+                        <span class="list-item__title">Brutiful</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0210</span>
+                        <span class="list-item__title">Brutiful San Gimignano Lichtenberg 04092018</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0207-terrassenhaus-ii" data-url="/projects/0207-terrassenhaus-ii">
+                            <span class="list-item__number">0207</span>
+                        <span class="list-item__title">Terrassenhaus II</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0206</span>
+                        <span class="list-item__title">Junggyebon-Dong Apartment Housing</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0202-station-plus" data-url="/projects/0202-station-plus">
+                            <span class="list-item__number">0202</span>
+                        <span class="list-item__title">station.plus</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0201-freiheit-von-mogglingen" data-url="/projects/0201-freiheit-von-mogglingen">
+                            <span class="list-item__number">0201</span>
+                        <span class="list-item__title">Freiheit von Mögglingen</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0200-el-croquis" data-url="/projects/0200-el-croquis">
+                            <span class="list-item__number">0200</span>
+                        <span class="list-item__title">El Croquis</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0199.4-arch-features-performing-architecture" data-url="/projects/0199.4-arch-features-performing-architecture">
+                            <span class="list-item__number">0199.4</span>
+                        <span class="list-item__title">ARCH+ features: Performing Architecture</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0199.3-arch-features-the-property-issue" data-url="/projects/0199.3-arch-features-the-property-issue">
+                            <span class="list-item__number">0199.3</span>
+                        <span class="list-item__title">ARCH+ features: The Property Issue</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0199.2-arch-the-property-issue" data-url="/projects/0199.2-arch-the-property-issue">
+                            <span class="list-item__number">0199.2</span>
+                        <span class="list-item__title">ARCH+ The Property Issue</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0199.1-the-property-drama" data-url="/projects/0199.1-the-property-drama">
+                            <span class="list-item__number">0199.1</span>
+                        <span class="list-item__title">The Property Drama</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0199-the-property-drama" data-url="/projects/0199-the-property-drama">
+                            <span class="list-item__number">0199</span>
+                        <span class="list-item__title">The Property Drama</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0198.1</span>
+                        <span class="list-item__title">Casa exStorta</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0198-casa-storta" data-url="/projects/0198-casa-storta">
+                            <span class="list-item__number">0198</span>
+                        <span class="list-item__title">Casa Storta</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0197</span>
+                        <span class="list-item__title">HFBK</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0196</span>
+                        <span class="list-item__title">Am Tacheles Joux</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0195-spreestudios" data-url="/projects/0195-spreestudios">
+                            <span class="list-item__number">0195</span>
+                        <span class="list-item__title">Spreestudios</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0194</span>
+                        <span class="list-item__title">Am Tacheles Laika</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0193</span>
+                        <span class="list-item__title">WerkBundStadtBerlin</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0192-fierensblok" data-url="/projects/0192-fierensblok">
+                            <span class="list-item__number">0192</span>
+                        <span class="list-item__title">Fierensblok</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0187.7</span>
+                        <span class="list-item__title">ARCH+ features: Legislating & Release Architecture</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0187.6</span>
+                        <span class="list-item__title">ARCH+ features: Legislating Architecture</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0187.5-legislating-architecture" data-url="/projects/0187.5-legislating-architecture">
+                            <span class="list-item__number">0187.5</span>
+                        <span class="list-item__title">Legislating Architecture</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0187.4-arch-legislating-architecture" data-url="/projects/0187.4-arch-legislating-architecture">
+                            <span class="list-item__number">0187.4</span>
+                        <span class="list-item__title">ARCH+ Legislating Architecture</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0187.3-legislating-architecture-schweiz" data-url="/projects/0187.3-legislating-architecture-schweiz">
+                            <span class="list-item__number">0187.3</span>
+                        <span class="list-item__title">Legislating Architecture Schweiz</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0187.2-legislating-architecture" data-url="/projects/0187.2-legislating-architecture">
+                            <span class="list-item__number">0187.2</span>
+                        <span class="list-item__title">Legislating Architecture</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0187.1-legislating-architecture-schweiz" data-url="/projects/0187.1-legislating-architecture-schweiz">
+                            <span class="list-item__number">0187.1</span>
+                        <span class="list-item__title">Legislating Architecture Schweiz</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0187-legislating-architecture" data-url="/projects/0187-legislating-architecture">
+                            <span class="list-item__number">0187</span>
+                        <span class="list-item__title">Legislating Architecture</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0185-museum-of-the-20th-century" data-url="/projects/0185-museum-of-the-20th-century">
+                            <span class="list-item__number">0185</span>
+                        <span class="list-item__title">Museum of the 20th Century</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0184</span>
+                        <span class="list-item__title">Grand Opening</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0183-guardia-di-finanza" data-url="/projects/0183-guardia-di-finanza">
+                            <span class="list-item__number">0183</span>
+                        <span class="list-item__title">Guardia di Finanza</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0182.1-fahrbereitschaft-lichtenberg-schaulager" data-url="/projects/0182.1-fahrbereitschaft-lichtenberg-schaulager">
+                            <span class="list-item__number">0182.1</span>
+                        <span class="list-item__title">Fahrbereitschaft Lichtenberg: Schaulager</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0182-fahrbereitschaft-lichtenberg-gewerbe" data-url="/projects/0182-fahrbereitschaft-lichtenberg-gewerbe">
+                            <span class="list-item__number">0182</span>
+                        <span class="list-item__title">Fahrbereitschaft Lichtenberg: Gewerbe</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0181</span>
+                        <span class="list-item__title">Köpenicker Strasse</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0179.1-the-dialogic-city-berlin-wird-berlin" data-url="/projects/0179.1-the-dialogic-city-berlin-wird-berlin">
+                            <span class="list-item__number">0179.1</span>
+                        <span class="list-item__title">The Dialogic City—Berlin wird Berlin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0179-the-dialogic-city-berlin-wird-berlin" data-url="/projects/0179-the-dialogic-city-berlin-wird-berlin">
+                            <span class="list-item__number">0179</span>
+                        <span class="list-item__title">The Dialogic City—Berlin wird Berlin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0178</span>
+                        <span class="list-item__title">Bauhaus Museum</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0176</span>
+                        <span class="list-item__title">Montreal Store</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0175-harvard-abroad-studio-berlin" data-url="/projects/0175-harvard-abroad-studio-berlin">
+                            <span class="list-item__number">0175</span>
+                        <span class="list-item__title">Harvard Abroad Studio Berlin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0174</span>
+                        <span class="list-item__title">Helios Ateliers</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0173</span>
+                        <span class="list-item__title">Fischbeker Heidbrook</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0172-anthropogenic-landscapes" data-url="/projects/0172-anthropogenic-landscapes">
+                            <span class="list-item__number">0172</span>
+                        <span class="list-item__title">Anthropogenic Landscapes</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0171-via-costamante" data-url="/projects/0171-via-costamante">
+                            <span class="list-item__number">0171</span>
+                        <span class="list-item__title">Via Costamante</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0170-art-collection-siedle" data-url="/projects/0170-art-collection-siedle">
+                            <span class="list-item__number">0170</span>
+                        <span class="list-item__title">Art Collection Siedle</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0169.1-hammerschmidt" data-url="/projects/0169.1-hammerschmidt">
+                            <span class="list-item__number">0169.1</span>
+                        <span class="list-item__title">Hammerschmidt</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0169-karl-hammerschmidt-strasse" data-url="/projects/0169-karl-hammerschmidt-strasse">
+                            <span class="list-item__number">0169</span>
+                        <span class="list-item__title">Karl-Hammerschmidt-Strasse</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0168</span>
+                        <span class="list-item__title">Krampnitz Tapes</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0166</span>
+                        <span class="list-item__title">Guggenheim Helsinki</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0165-how-soon-is-now" data-url="/projects/0165-how-soon-is-now">
+                            <span class="list-item__number">0165</span>
+                        <span class="list-item__title">How Soon is Now?</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0164-taz" data-url="/projects/0164-taz">
+                            <span class="list-item__number">0164</span>
+                        <span class="list-item__title">TAZ</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0163</span>
+                        <span class="list-item__title">Deutsche Werkbund Ausstellung</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0162.2-arch-features-eine-neue-ethik-des-heterogenen" data-url="/projects/0162.2-arch-features-eine-neue-ethik-des-heterogenen">
+                            <span class="list-item__number">0162.2</span>
+                        <span class="list-item__title">ARCH+ features: Eine neue Ethik des Heterogenen</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0162.1-arch-features-terrassenhaus-berlin" data-url="/projects/0162.1-arch-features-terrassenhaus-berlin">
+                            <span class="list-item__number">0162.1</span>
+                        <span class="list-item__title">ARCH+ features: Terrassenhaus Berlin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0162-terrassenhaus-berlin-lobe-block" data-url="/projects/0162-terrassenhaus-berlin-lobe-block">
+                            <span class="list-item__number">0162</span>
+                        <span class="list-item__title">Terrassenhaus Berlin / Lobe Block</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0161-ninikowo" data-url="/projects/0161-ninikowo">
+                            <span class="list-item__number">0161</span>
+                        <span class="list-item__title">Ninikowo</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0160</span>
+                        <span class="list-item__title">Helios</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0159</span>
+                        <span class="list-item__title">Weiterhin Ottensen</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0158</span>
+                        <span class="list-item__title">Keibelstrasse</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0157</span>
+                        <span class="list-item__title">Utopie beginnt im Kleinen</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0156</span>
+                        <span class="list-item__title">Neue Bescheidenheit</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0155-brandlhuber-von-der-stadt-der-teile-zur-stadt-der-teilhabe-berliner-projekte" data-url="/projects/0155-brandlhuber-von-der-stadt-der-teile-zur-stadt-der-teilhabe-berliner-projekte">
+                            <span class="list-item__number">0155</span>
+                        <span class="list-item__title">Brandlhuber+ Von der Stadt der Teile zur Stadt der Teilhabe. Berliner Projekte.</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0154.5-die-unbekannte-stadt" data-url="/projects/0154.5-die-unbekannte-stadt">
+                            <span class="list-item__number">0154.5</span>
+                        <span class="list-item__title">Die unbekannte Stadt</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0154.4</span>
+                        <span class="list-item__title">SGL Berlin Questions: Exploring Lichtenberg</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0154.3-arch-berlin-praxis-the-productive-city" data-url="/projects/0154.3-arch-berlin-praxis-the-productive-city">
+                            <span class="list-item__number">0154.3</span>
+                        <span class="list-item__title">ARCH+ Berlin Praxis: The Productive City</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0154.2</span>
+                        <span class="list-item__title">SGL Prototyping Workshop</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0154.1-sgl-kitchen" data-url="/projects/0154.1-sgl-kitchen">
+                            <span class="list-item__number">0154.1</span>
+                        <span class="list-item__title">SGL Kitchen</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0154-san-gimignano-lichtenberg" data-url="/projects/0154-san-gimignano-lichtenberg">
+                            <span class="list-item__number">0154</span>
+                        <span class="list-item__title">San Gimignano Lichtenberg</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0153</span>
+                        <span class="list-item__title">Kunst-Campus</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0151.1-archipel" data-url="/projects/0151.1-archipel">
+                            <span class="list-item__number">0151.1</span>
+                        <span class="list-item__title">Archipel</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0151-archipel" data-url="/projects/0151-archipel">
+                            <span class="list-item__number">0151</span>
+                        <span class="list-item__title">Archipel</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0150.1-initiative-weltkulturerbe-doppeltes-berlin" data-url="/projects/0150.1-initiative-weltkulturerbe-doppeltes-berlin">
+                            <span class="list-item__number">0150.1</span>
+                        <span class="list-item__title">Initiative Weltkulturerbe Doppeltes Berlin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0150-initiative-weltkulturerbe-doppeltes-berlin" data-url="/projects/0150-initiative-weltkulturerbe-doppeltes-berlin">
+                            <span class="list-item__number">0150</span>
+                        <span class="list-item__title">Initiative Weltkulturerbe Doppeltes Berlin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0149-this-is-me-this-is-my-country" data-url="/projects/0149-this-is-me-this-is-my-country">
+                            <span class="list-item__number">0149</span>
+                        <span class="list-item__title">This is Me, This is My Country</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0148-rachel" data-url="/projects/0148-rachel">
+                            <span class="list-item__number">0148</span>
+                        <span class="list-item__title">Rachel</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0147</span>
+                        <span class="list-item__title">Haus der Zukunft</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0146</span>
+                        <span class="list-item__title">Neue Weserburg</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0145.1</span>
+                        <span class="list-item__title">Agnes 2012-2111</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0145-st-agnes" data-url="/projects/0145-st-agnes">
+                            <span class="list-item__number">0145</span>
+                        <span class="list-item__title">St. Agnes</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0144</span>
+                        <span class="list-item__title">Copy + Paste</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0143-shanzhai-schloss-palast-des-luxus" data-url="/projects/0143-shanzhai-schloss-palast-des-luxus">
+                            <span class="list-item__number">0143</span>
+                        <span class="list-item__title">Shanzhai-Schloss "Palast des Luxus"</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0142</span>
+                        <span class="list-item__title">16*96</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0141</span>
+                        <span class="list-item__title">Mönchehaus Museum</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0140-rgb-165-96-36-cmyk-14-40-80-20" data-url="/projects/0140-rgb-165-96-36-cmyk-14-40-80-20">
+                            <span class="list-item__number">0140</span>
+                        <span class="list-item__title">RGB 165/96/36 CMYK 14/40/80/20</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0138.1</span>
+                        <span class="list-item__title">Expedaction</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0138</span>
+                        <span class="list-item__title">Expedaction</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0136-51-55" data-url="/projects/0136-51-55">
+                            <span class="list-item__number">0136</span>
+                        <span class="list-item__title">51*55</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0135-vrm-rocha" data-url="/projects/0135-vrm-rocha">
+                            <span class="list-item__number">0135</span>
+                        <span class="list-item__title">VRM Rocha</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0133-kunsthalle-gesundbrunnen" data-url="/projects/0133-kunsthalle-gesundbrunnen">
+                            <span class="list-item__number">0133</span>
+                        <span class="list-item__title">Kunsthalle Gesundbrunnen</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0132-option-lots" data-url="/projects/0132-option-lots">
+                            <span class="list-item__number">0132</span>
+                        <span class="list-item__title">Option Lots</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0131-antivilla" data-url="/projects/0131-antivilla">
+                            <span class="list-item__number">0131</span>
+                        <span class="list-item__title">Antivilla</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0130</span>
+                        <span class="list-item__title">Concrete Society</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0129</span>
+                        <span class="list-item__title">Konkrete Landschaft</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0128</span>
+                        <span class="list-item__title">Galerie Esther Schipper</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0126.3</span>
+                        <span class="list-item__title">VRMD Kostengünstig</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0126.2-vrmd-hermine-berthold-strasse" data-url="/projects/0126.2-vrmd-hermine-berthold-strasse">
+                            <span class="list-item__number">0126.2</span>
+                        <span class="list-item__title">VRMD Hermine-Berthold-Strasse</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0126.1</span>
+                        <span class="list-item__title">VRMD Wohnen & Arbeiten</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0126-vrmd-vierrichtungsmoduldiagonal" data-url="/projects/0126-vrmd-vierrichtungsmoduldiagonal">
+                            <span class="list-item__number">0126</span>
+                        <span class="list-item__title">VRMD (VierRichtungsModulDiagonal)</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0123</span>
+                        <span class="list-item__title">Dritte Natur</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0122-akademie-c-o" data-url="/projects/0122-akademie-c-o">
+                            <span class="list-item__number">0122</span>
+                        <span class="list-item__title">Akademie c/o</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0120</span>
+                        <span class="list-item__title">Burg Wissem</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0119</span>
+                        <span class="list-item__title">0119</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0118-2100-elsdorf-am-see" data-url="/projects/0118-2100-elsdorf-am-see">
+                            <span class="list-item__number">0118</span>
+                        <span class="list-item__title">2100 Elsdorf am See</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0116.1-embassy-re-edited" data-url="/projects/0116.1-embassy-re-edited">
+                            <span class="list-item__number">0116.1</span>
+                        <span class="list-item__title">Embassy re-edited</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0116-embassy" data-url="/projects/0116-embassy">
+                            <span class="list-item__number">0116</span>
+                        <span class="list-item__title">Embassy</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0115</span>
+                        <span class="list-item__title">Lehrterstrasse 8</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0114</span>
+                        <span class="list-item__title">Lehrterstrasse 6</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0113.2</span>
+                        <span class="list-item__title">Brunnenstrasse 9 Update</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0113.1</span>
+                        <span class="list-item__title">Brunnenstrasse 9 Update</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0113-brunnenstrasse-9" data-url="/projects/0113-brunnenstrasse-9">
+                            <span class="list-item__number">0113</span>
+                        <span class="list-item__title">Brunnenstrasse 9</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0111</span>
+                        <span class="list-item__title">Bergedorf</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0110</span>
+                        <span class="list-item__title">Flying The Flag</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0109</span>
+                        <span class="list-item__title">Schöneberger Ufer</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108.6-disko-26" data-url="/projects/0108.6-disko-26">
+                            <span class="list-item__number">0108.6</span>
+                        <span class="list-item__title">Disko 26</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108.5-disko-20-25" data-url="/projects/0108.5-disko-20-25">
+                            <span class="list-item__number">0108.5</span>
+                        <span class="list-item__title">Disko 20–25</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108.4-disko-16-19" data-url="/projects/0108.4-disko-16-19">
+                            <span class="list-item__number">0108.4</span>
+                        <span class="list-item__title">Disko 16–19</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108.3-disko-12-15" data-url="/projects/0108.3-disko-12-15">
+                            <span class="list-item__number">0108.3</span>
+                        <span class="list-item__title">Disko 12–15</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108.2-disko-8-11" data-url="/projects/0108.2-disko-8-11">
+                            <span class="list-item__number">0108.2</span>
+                        <span class="list-item__title">Disko 8–11</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108.1-disko-5-7" data-url="/projects/0108.1-disko-5-7">
+                            <span class="list-item__number">0108.1</span>
+                        <span class="list-item__title">Disko 5–7</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0108-disko-1-4" data-url="/projects/0108-disko-1-4">
+                            <span class="list-item__number">0108</span>
+                        <span class="list-item__title">Disko 1–4</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0107</span>
+                        <span class="list-item__title">Zelluläre Landschaften Ruhrstadt</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0106</span>
+                        <span class="list-item__title">Dionysoshof 1:1</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0105</span>
+                        <span class="list-item__title">Topografie des Terrors</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0104</span>
+                        <span class="list-item__title">Die Burg</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0103</span>
+                        <span class="list-item__title">Box 2.0 cph</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0102</span>
+                        <span class="list-item__title">Bregenz</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0101-brandlhuber-com" data-url="/projects/0101-brandlhuber-com">
+                            <span class="list-item__number">0101</span>
+                        <span class="list-item__title">brandlhuber.com</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0100.1-brandlhuber-a-fiction" data-url="/projects/0100.1-brandlhuber-a-fiction">
+                            <span class="list-item__number">0100.1</span>
+                        <span class="list-item__title">Brandlhuber, A Fiction</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0100</span>
+                        <span class="list-item__title">Collecting the future</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0099</span>
+                        <span class="list-item__title">Over the top</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0098</span>
+                        <span class="list-item__title">Mainz II</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0097-wentzsche" data-url="/projects/0097-wentzsche">
+                            <span class="list-item__number">0097</span>
+                        <span class="list-item__title">Wentzsche</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0096</span>
+                        <span class="list-item__title">Thessaloniki</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0095.1</span>
+                        <span class="list-item__title">thomas demand b&k+</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0095</span>
+                        <span class="list-item__title">10:01</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0094</span>
+                        <span class="list-item__title">Neuer Garten</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0093</span>
+                        <span class="list-item__title">a42.org</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0092</span>
+                        <span class="list-item__title">Isar Süd</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0091</span>
+                        <span class="list-item__title">Magnus Nordwand</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0090</span>
+                        <span class="list-item__title">Aichi</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0089-crystal" data-url="/projects/0089-crystal">
+                            <span class="list-item__number">0089</span>
+                        <span class="list-item__title">Crystal</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0088</span>
+                        <span class="list-item__title">Dönges II</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0087</span>
+                        <span class="list-item__title">Nørrebro</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0086</span>
+                        <span class="list-item__title">Mainz I</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0085</span>
+                        <span class="list-item__title">Stellwand 03a</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0084</span>
+                        <span class="list-item__title">Biomed</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0083</span>
+                        <span class="list-item__title">Handshake</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0082.2-vrm-hybrid-houses" data-url="/projects/0082.2-vrm-hybrid-houses">
+                            <span class="list-item__number">0082.2</span>
+                        <span class="list-item__title">VRM Hybrid Houses</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0082.1</span>
+                        <span class="list-item__title">VRM Berlin</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0082</span>
+                        <span class="list-item__title">VRM Salzmagazin II</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0081</span>
+                        <span class="list-item__title">Stagemaker</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0080</span>
+                        <span class="list-item__title">ReStadion</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0079</span>
+                        <span class="list-item__title">9m2 Büro</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0078</span>
+                        <span class="list-item__title">Die Last der Geschichte</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0077</span>
+                        <span class="list-item__title">Schanzenpark</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0076</span>
+                        <span class="list-item__title">Carl Alexander</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0075</span>
+                        <span class="list-item__title">Cramer II</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0074-cramer-i" data-url="/projects/0074-cramer-i">
+                            <span class="list-item__number">0074</span>
+                        <span class="list-item__title">Cramer I</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0073</span>
+                        <span class="list-item__title">DLR-Casino</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0072</span>
+                        <span class="list-item__title">Art Cologne</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0071</span>
+                        <span class="list-item__title">Reden</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0070</span>
+                        <span class="list-item__title">Dionysoshof</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0069-dlr-labor" data-url="/projects/0069-dlr-labor">
+                            <span class="list-item__number">0069</span>
+                        <span class="list-item__title">DLR-Labor</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0068</span>
+                        <span class="list-item__title">Schnorrenberg</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0067</span>
+                        <span class="list-item__title">Vulkan</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0066-donges-i" data-url="/projects/0066-donges-i">
+                            <span class="list-item__number">0066</span>
+                        <span class="list-item__title">Dönges I</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0065-index" data-url="/projects/0065-index">
+                            <span class="list-item__number">0065</span>
+                        <span class="list-item__title">Index</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0064</span>
+                        <span class="list-item__title">Archilab 2001</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0063</span>
+                        <span class="list-item__title">Bienenhaus</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0061</span>
+                        <span class="list-item__title">Metazoon</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0060</span>
+                        <span class="list-item__title">BMW</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0059</span>
+                        <span class="list-item__title">Rodenkirchen</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0058</span>
+                        <span class="list-item__title">Wahrscheinlichkeitsmodell</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0056</span>
+                        <span class="list-item__title">Heilige 3 Könige</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0055</span>
+                        <span class="list-item__title">Karnevalsmuseum</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0054.1-political-landscape-politische-landschaft" data-url="/projects/0054.1-political-landscape-politische-landschaft">
+                            <span class="list-item__number">0054.1</span>
+                        <span class="list-item__title">Political Landscape [Politische Landschaft]</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0054</span>
+                        <span class="list-item__title">Politische Landschaft</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0053</span>
+                        <span class="list-item__title">Atomium</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0052</span>
+                        <span class="list-item__title">Nancy</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0051.1</span>
+                        <span class="list-item__title">Die Gründung der Akademie</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0051</span>
+                        <span class="list-item__title">Gründung der Akademie</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0050</span>
+                        <span class="list-item__title">Offene Räume</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0049</span>
+                        <span class="list-item__title">Finsterwalde II</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0048</span>
+                        <span class="list-item__title">Fondation Cartier</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0047</span>
+                        <span class="list-item__title">Diastat</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0045</span>
+                        <span class="list-item__title">Neptunplatz</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0044-stavenhof" data-url="/projects/0044-stavenhof">
+                            <span class="list-item__number">0044</span>
+                        <span class="list-item__title">Stavenhof</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0043</span>
+                        <span class="list-item__title">T-room</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0042.1-in-vitro-landscape-grundlagen-zur-architekturgenetik-1" data-url="/projects/0042.1-in-vitro-landscape-grundlagen-zur-architekturgenetik-1">
+                            <span class="list-item__number">0042.1</span>
+                        <span class="list-item__title">in vitro landscape. grundlagen zur architekturgenetik 1</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0042-in-vitro-landscape" data-url="/projects/0042-in-vitro-landscape">
+                            <span class="list-item__number">0042</span>
+                        <span class="list-item__title">in vitro landscape</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0041</span>
+                        <span class="list-item__title">Cologne Science Center</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0040</span>
+                        <span class="list-item__title">max</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0038-flora-n" data-url="/projects/0038-flora-n">
+                            <span class="list-item__number">0038</span>
+                        <span class="list-item__title">flora_n</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0037</span>
+                        <span class="list-item__title">Indigene Völker</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0036</span>
+                        <span class="list-item__title">HWWP</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0035</span>
+                        <span class="list-item__title">Block 5</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0034</span>
+                        <span class="list-item__title">Mayen, Genovevaburg</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0033</span>
+                        <span class="list-item__title">Lichtstrasse</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0032</span>
+                        <span class="list-item__title">Niehler Strasse</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0031</span>
+                        <span class="list-item__title">Vaalser Quartier</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0030.1</span>
+                        <span class="list-item__title">Liquid Sky Cologne Presentz Klimazone_n</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0030-klimazone-n" data-url="/projects/0030-klimazone-n">
+                            <span class="list-item__number">0030</span>
+                        <span class="list-item__title">Klimazone_n</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0029-telematische-landschaft" data-url="/projects/0029-telematische-landschaft">
+                            <span class="list-item__number">0029</span>
+                        <span class="list-item__title">Telematische Landschaft</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0028</span>
+                        <span class="list-item__title">Neues Wohnen</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0027</span>
+                        <span class="list-item__title">Stadtbibliothek Ulm</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0026</span>
+                        <span class="list-item__title">Flingern</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0025</span>
+                        <span class="list-item__title">Let's Kiosk</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0024</span>
+                        <span class="list-item__title">Salzmagazin I</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0023</span>
+                        <span class="list-item__title">Leyendecker</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0022</span>
+                        <span class="list-item__title">Speculation</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0021-geisselstrasse" data-url="/projects/0021-geisselstrasse">
+                            <span class="list-item__number">0021</span>
+                        <span class="list-item__title">Geisselstrasse</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0020</span>
+                        <span class="list-item__title">Kaisermeile</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0019.1</span>
+                        <span class="list-item__title">trr Kölner Brett</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0019-kolner-brett" data-url="/projects/0019-kolner-brett">
+                            <span class="list-item__number">0019</span>
+                        <span class="list-item__title">Kölner Brett </span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0018</span>
+                        <span class="list-item__title">Messe Düsseldorf</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0017</span>
+                        <span class="list-item__title">Baumstücke</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0016</span>
+                        <span class="list-item__title">Finsterwalde I</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0015</span>
+                        <span class="list-item__title">Sürther Feld</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0014</span>
+                        <span class="list-item__title">Pfarrkirche Vingst</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0013</span>
+                        <span class="list-item__title">Wallraf Richartz</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0012</span>
+                        <span class="list-item__title">Dönges 0</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0011</span>
+                        <span class="list-item__title">Tiere + deine Freunde</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0010-2-56" data-url="/projects/0010-2-56">
+                            <span class="list-item__number">0010</span>
+                        <span class="list-item__title">2.56</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0009</span>
+                        <span class="list-item__title">Expo 2000</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0008</span>
+                        <span class="list-item__title">Das letzte Haus</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0007</span>
+                        <span class="list-item__title">Öltank</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0006</span>
+                        <span class="list-item__title">Kopenhagen</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0005</span>
+                        <span class="list-item__title">Buchenwald</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0004</span>
+                        <span class="list-item__title">Nussbaum</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0003.2</span>
+                        <span class="list-item__title">Neanderthal Museum</span>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0003.1</span>
+                        <span class="list-item__title">Neanderthal Museum</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0003-neanderthal-museum" data-url="/projects/0003-neanderthal-museum">
+                            <span class="list-item__number">0003</span>
+                        <span class="list-item__title">Neanderthal Museum</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number">0002.1</span>
+                        <span class="list-item__title">Workshop Vauxtin</span>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0002-vauxtin" data-url="/projects/0002-vauxtin">
+                            <span class="list-item__number">0002</span>
+                        <span class="list-item__title">Vauxtin</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item index__list-item--details">
+                        <a class="js-open" href="/projects/0001-arbeitsraum" data-url="/projects/0001-arbeitsraum">
+                            <span class="list-item__number">0001</span>
+                        <span class="list-item__title">Arbeitsraum</span>
+                        </a>
+                    </li>
+    
+                <li class="index__list-item">
+                            <span class="list-item__number"></span>
+                        <span class="list-item__title"></span>
+                    </li>
+    			</ul>
+
+			<ul class="index__search-results"></ul>
+		</div>
+	</div>
+	
 
   
     <!-- Creating a navigation bar using the.navbar class of bootstrap -->
