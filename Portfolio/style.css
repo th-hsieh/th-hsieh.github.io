@@ -3,11 +3,17 @@ body {
   float: left;
 }
 
-.vertical-menu-left,
-.vertical-menu-right
+.vertical-menu-left
 {
   width: 10%;
   float: left;
+  height: 100%;
+}
+
+.vertical-menu-right
+{
+  width: 10%;
+  float: right;
   height: 100%;
 }
 
@@ -19,7 +25,3 @@ body {
 }
 
 
-p {
-  padding-top: 25px;
-  text-align: center;
-}
