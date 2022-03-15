@@ -1,7 +1,7 @@
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #FFFFFF;
 }
 
 /* Navbar links */
@@ -9,7 +9,7 @@
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: vertical;
   padding: 14px;
   text-decoration: none;
 }
