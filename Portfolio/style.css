@@ -25,9 +25,7 @@ html,body {
 }
 
 
-.vertical-menu-left {
-  width: 200px; /* Set a width if you like */
-}
+
 
 .vertical-menu-left a {
   background-color: #eee; /* Grey background color */
@@ -43,10 +41,6 @@ html,body {
 
 
 
-.vertical-menu-right {
-  width: 200px; /* Set a width if you like */
-}
-
 .vertical-menu-right a {
   background-color: #eee; /* Grey background color */
   color: black; /* Black text color */
@@ -59,7 +53,3 @@ html,body {
   background-color: #ccc; /* Dark grey background on mouse-over */
 }
 
-.vertical-menu-right a.active {
-  background-color: #04AA6D; /* Add a green color to the "active/current" link */
-  color: white;
-}
