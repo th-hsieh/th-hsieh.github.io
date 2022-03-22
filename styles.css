@@ -250,5 +250,5 @@ ul {
 /** make the left and middle section scrollbars**/
 .leftpane-content > div, .middlepane-content > div {
   position: relative;
-  height: flex 2000px;  /**flex?**/
+  height: flex 3000px;  /**flex?**/
 }
