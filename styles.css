@@ -59,7 +59,7 @@ table {
 
 /** healthcare, gender equality and educational system tag style syntax**/
 .healthcare-tag, .gender-equality-tag,.educational-system-tag{
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 .healthcare-tag:hover,.gender-equality-tag:hover,.educational-system-tag:hover{
