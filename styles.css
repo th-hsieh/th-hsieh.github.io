@@ -58,11 +58,11 @@ table {
 }
 
 /** healthcare, gender equality and educational system tag style syntax**/
-.healthcare-tag, .healthcare-tag:visited, .gender-equality-tag,.gender-equality-tag:visited, .educational-system-tag, .educational-system-tag:visited{
+#healthcare-tag, #healthcare-tag:visited, #gender-equality-tag,#gender-equality-tag:visited, #educational-system-tag, #educational-system-tag:visited{
   color: black;
   text-decoration: none;
 }
-.healthcare-tag:hover,.gender-equality-tag:hover,.educational-system-tag:hover{
+#healthcare-tag:hover,#gender-equality-tag:hover,#educational-system-tag:hover{
   color:#00A0C6; 
   text-decoration:none; 
   cursor:pointer;  
