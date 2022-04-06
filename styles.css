@@ -96,20 +96,6 @@ table {
   overflow: auto;	  
 }
 
-.invisible{
-  font-family:'Roboto Mono', monospace;
-  font-size:4rem;
-  color:#696969;
-  z-index: 999;
-}
-.visible{
-  font-family:'Roboto Mono', monospace;
-  font-size:4rem;
-  color:white;
-  position:right;
-  z-index: 999;
-}
-
 /**third grid**/
 .leftpane-content{
   grid-column-start:1;
