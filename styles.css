@@ -146,7 +146,7 @@ table {
   font-family:'Roboto Mono', monospace;
   font-size:2rem;
   line-height:2rem;
-  color:white;
+  color: color:rgb(44,44,44);
   position:center;
   display: inline-block;
   margin:50px 50px 50px 50px;
