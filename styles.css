@@ -63,7 +63,7 @@ table {
   text-decoration: none;
 }
 
-#healthcare-tag:hover,#gender-equality-tag:hover,#educational-system-tag:hover{
+#date, #date:visited,#healthcare-tag:hover,#gender-equality-tag:hover,#educational-system-tag:hover{
   color:#00A0C6; 
   text-decoration:none; 
   cursor:pointer;  
