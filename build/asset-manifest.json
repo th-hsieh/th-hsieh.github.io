@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/public-privacy-app/static/css/main.161a6a43.css",
+    "main.js": "/public-privacy-app/static/js/main.5c191e99.js",
+    "index.html": "/public-privacy-app/index.html",
+    "main.161a6a43.css.map": "/public-privacy-app/static/css/main.161a6a43.css.map",
+    "main.5c191e99.js.map": "/public-privacy-app/static/js/main.5c191e99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.161a6a43.css",
+    "static/js/main.5c191e99.js"
+  ]
+}
